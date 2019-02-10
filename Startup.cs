@@ -50,7 +50,7 @@ namespace Sample01
 
             app.UseHttpsRedirection();
             //app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseCookiePolicy();
 
             app.UseMvc(routes =>
             {
